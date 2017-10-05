@@ -1,0 +1,62 @@
+/* body{
+	background-color: red;
+} */
+#bodyy{
+	color: white;
+	font-family: 'roboto';
+}
+
+#mynav{
+	padding-bottom: 0px;
+	
+}
+
+.edit{
+	background: pink;
+	border-color: red;
+}
+#mynav .navbar-brand:hover{
+	background-color: red;
+}
+
+#tabhome{
+	padding : 70px 0 0 0;
+	height: 340px;
+	background-color: blue;
+  /*   margin: 0px 0 0 0; */
+    border: 1px solid red;
+    font-family: arial;
+    
+}
+
+#tababout{
+	background-color : red; 
+	/* margin : 0px 0px 0px 0px; */
+	height: 1000px;	
+	padding : 70px 0 0 0;
+}
+
+#tabportfolio{
+	background-color: green;
+	height: 400px;
+	padding : 70px 0 0 0;
+}
+#tabcontact{
+	background-color: yellow;
+	height: 500px;
+	padding : 70px 0 0 0;
+}
+
+#partfooter
+{
+	background-color: pink;
+	height: 100px;
+}
+
+#btnpp{
+	background-color: black;
+}
+
+img{
+	display: inline-block;
+}
