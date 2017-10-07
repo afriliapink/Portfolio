@@ -99,6 +99,10 @@ h1 {
     font-family: 'Bree Serif', serif;
 }
 
+h3 {
+  font-family: 'Questrial', sans-serif;
+}
+
 .andFont {
     font-family: 'Goudy Bookletter 1911', serif;
     color:#778472;
@@ -114,13 +118,51 @@ h1 {
     height: 100%;
 }
 
-.carousel-control.right, .carousel-control.left{
-    background-image: none;
-    color: #f4511e;
-    padding-right: 5px;
-    padding-left: 5px;
+.carousel-control.right, .carousel-control.left {
+  background-image: none;
+  color: #f4511e;
+  padding-right: 5px;
+  padding-left: 5px;
 }
 
+/*.container {
+    position: relative;
+    width: 50%;
+}*/
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: 100%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.thumbnail:hover .image {
+  opacity: 0.3;
+}
+
+.thumbnail:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
 /* === Contact section === */
 
 
